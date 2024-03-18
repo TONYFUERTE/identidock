@@ -1,4 +1,4 @@
- from flask import Flask, Response
+from flask import Flask, Response
 import requests
 app = Flask(__name__)
 salt = "UNIQUE_SALT"
